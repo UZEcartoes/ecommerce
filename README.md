@@ -1,3 +1,5 @@
+<!-- ![alt text](https://github.com/UZEcartoes/ecommerce/blob/main/imagemTeste.png?raw=true) -->
+
 # Integração E-Commerce
 
 A integração e-commerce pode ser feitas de duas formas : 
@@ -20,35 +22,22 @@ Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, 
 # - Via SOAP
 
 O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transações que são feitas com os cartões da UZE.
-```
-<Explicação a respeito do pagamento de compra>
-![alt text](https://github.com/UZEcartoes/ecommerce/blob/main/imagemTeste.png)
-<Explicação a respeito de cancelamento de compra>
-```
-Dúvidas que aparecem com frequência são : 
-<ALTERAR ESTE CAMPO>
-    <EXTORNO SÓ PODE SER FEITO NO MESMO DIA>
-        <JÁ EXISTE A OPÇÃO DE CONFIRMAÇÃO DE COMPRA>
-- Lançamento da compra na hora que for feita, mas apenas efetuar a confirmação/cancelamento na hora da retirada do produto ou confirmar valor menor(para o caso de a loja não possuir o produto na hora e o valor da compra ser menor do que o que foi orçado inicialmente no site).
-- Realização de extornos parciais.
 
-Para o primeiro caso, o prazo máximo para confirmação/cancelamento é de <X> dias (ou <X> horas).
-Para o segundo, o valor total da compra deve ser extornado, e então uma nova compra deverá ser lançada com o novo valor. 
+Dentro dos serviços disponíveis, o que utilizaremos no e-commerce são : 
+- Compra - Este serviço deverá ser utilizado para gerar transações financeiras de compra e pagamento.
+- Confirma Compra - Este serviço deverá ser utilizado para gerar uma confirmação de uma transação Financeira de Compra ou Pagamento.
+- Cancelamento Compra - Este serviço deverá ser utilizado para gerar uma transação de cancelamento de Compra e Pagamento, onde os tipos são definidos pelo campo p_codproc.
+- Desfazimento Transação - Este serviço deverá ser utilizado para gerar uma transação de desfazer uma Compra/Pagamento, com também  desfazer  um  Cancelamento  de  Compra/Pagamento,onde  os  tipos  de  são  definidos pelo campo p_codproc.
+
+
 ```
-Links úteis : 
-- Documentação : < Link da documentação >
-- Vídeo Explicativo : < Link do google Drive com explicação de alguém que conheça a documentação da BIZ >
+A criação de credenciais, utilização da chave de acesso e criptografia serão explicados no vídeo e na documentação abaixo.
 ```
+https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
+
+
 
 # Dúvidas
 
-Para o caso de dúvidas entre em contato com : 
-- Possibilidades : 
-    - < Formulário Google, Pipefy, WhatsApp ou E-mail >
-
-- Sugestão : 
-    - < A meu ver, seria interessante pelo pipefy, devido à organização e comunicação através do próprio software >
-
-- Problemas com Forms, Email e WhatsApp : 
-    - < No caso de e-mail e whats-app seria ruim para unir todos os emails a respeito do protocolo, pois poderiam vir misturados com outros emails, dificultando a gestão e o controle >
-    - < O formulário do google seria ruim pois teríamos que entrar em contato via e-mail e whatsapp, por exemplo, voltando ao problema anterior >
+Para o caso de dúvidas entre em contato conosco através do link abaixo : 
+- < LINK DO PIPEFY > 
