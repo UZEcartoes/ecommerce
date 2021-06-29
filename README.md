@@ -22,7 +22,7 @@ Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, 
 O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transações que são feitas com os cartões da UZE.
 ```
 <Explicação a respeito do pagamento de compra>
-
+![alt text](https://github.com/UZEcartoes/ecommerce/blob/main/imagemTeste.png)
 <Explicação a respeito de cancelamento de compra>
 ```
 Dúvidas que aparecem com frequência são : 
