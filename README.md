@@ -36,6 +36,8 @@ A criação de credenciais, utilização da chave de acesso e criptografia serã
 https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
 
 
+- Link da documentação : [esp_interface_autorizacao_webservice_v1_5 nova.pdf](https://github.com/UZEcartoes/ecommerce/files/6736735/esp_interface_autorizacao_webservice_v1_5.nova.pdf)
+
 
 # Dúvidas
 
