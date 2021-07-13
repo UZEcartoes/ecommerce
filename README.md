@@ -11,7 +11,8 @@ Estes dois modos de integração serão tratados neste artigo. Cada um deles de 
 
 # - Via POS
 
-Este método é o mais rápido e consiste basicamente no pagamento da compra na hora da retirada.
+Este método é o que requer menos esforço de implementação e consiste basicamente no pagamento da compra na hora da retirada dos produtos(modalidade pós pago).
+É preciso parametrizar esta opção no módulo de administrador do sistema como sendo uma das formas de pagamento que serão exibidas no front-end para os clientes no momento do checkout. 
 
 - O cliente faz a escolha dos produtos no site
 - Seleciona a opção de pagar utilizando o cartão da empresa
