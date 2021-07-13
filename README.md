@@ -11,14 +11,14 @@ Estes dois modos de integração serão tratados neste artigo. Cada um deles de 
 
 # - Via POS
 
-Este método é o que requer menos esforço de implementação e consiste basicamente no pagamento da compra na hora da retirada dos produtos(modalidade pós pago).
+Este método é apenas uma alternativa e requer menos esforço de implementação. O mesmo consiste, basicamente, no pagamento da compra na hora da retirada dos produtos(modalidade pós pago).
 É preciso parametrizar esta opção no módulo de administrador do sistema como sendo uma das formas de pagamento que serão exibidas no front-end para os clientes no momento do checkout. 
 
-- O cliente faz a escolha dos produtos no site
-- Seleciona a opção de pagar utilizando o cartão da empresa
-- Na hora de retirar o produto o cliente efetua o pagamento na máquina
+- O cliente faz a escolha dos produtos no site.
+- Seleciona a opção de pagar utilizando o cartão da empresa.
+- Na hora de retirar o produto o cliente efetua o pagamento na máquina POS física ou no POS virtual.
 
-https://user-images.githubusercontent.com/screenshotMercado.png
+![Screenshot](screenshotMercado.png)
 
 Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, ela é debitada na máquina na retirada do produto.
 
