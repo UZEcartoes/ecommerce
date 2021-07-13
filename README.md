@@ -18,6 +18,8 @@ Este método é o que requer menos esforço de implementação e consiste basica
 - Seleciona a opção de pagar utilizando o cartão da empresa
 - Na hora de retirar o produto o cliente efetua o pagamento na máquina
 
+https://user-images.githubusercontent.com/screenshotMercado.png
+
 Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, ela é debitada na máquina na retirada do produto.
 
 # - Via SOAP
