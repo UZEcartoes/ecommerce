@@ -18,7 +18,9 @@ Este método é apenas uma alternativa e requer menos esforço de implementaçã
 - Seleciona a opção de pagar utilizando o cartão da empresa.
 - Na hora de retirar o produto o cliente efetua o pagamento na máquina POS física ou no POS virtual.
 
-![Screenshot](screenshotMercado.png)
+<p align="center">
+  <img width="500" src="screenshotMercado.png">
+</p>
 
 Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, ela é debitada na máquina na retirada do produto.
 
@@ -26,16 +28,18 @@ Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, 
 
 O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transações que são feitas com os cartões da UZE.
 
+<!--
 Dentro dos serviços disponíveis, o que utilizaremos no e-commerce são : 
 - Compra - Este serviço deverá ser utilizado para gerar transações financeiras de compra e pagamento.
 - Confirma Compra - Este serviço deverá ser utilizado para gerar uma confirmação de uma transação Financeira de Compra ou Pagamento.
 - Cancelamento Compra - Este serviço deverá ser utilizado para gerar uma transação de cancelamento de Compra e Pagamento, onde os tipos são definidos pelo campo p_codproc.
 - Desfazimento Transação - Este serviço deverá ser utilizado para gerar uma transação de desfazer uma Compra/Pagamento, com também  desfazer  um  Cancelamento  de  Compra/Pagamento,onde  os  tipos  de  são  definidos pelo campo p_codproc.
 
-
 ```
 A criação de credenciais, utilização da chave de acesso e criptografia serão explicados no vídeo e na documentação abaixo.
 ```
+-->
+
 https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
 
 
