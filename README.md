@@ -25,10 +25,11 @@ Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, 
 <h2>Via SOAP<a href="documentoBiz.pdf"> (Documento) </a></h2> 
 
 O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transações que são feitas com os cartões da UZE.
+<br>
 
 ### Exemplo de fluxo do processo : 
 
-> Cliente seleciona os produtos que deseja.
+- Cliente seleciona os produtos que deseja.
 
 <table>
   <tbody >
@@ -40,18 +41,16 @@ O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transaçõe
   </tbody>
 </table>
 
-
-
-> No momento da separação dos produtos e pesagem, o produto a peso, ficou em 980g ao invés de 1Kg conforme solicitado. Neste caso, a compra original deve ser CANCELADA e uma nova compra DEVE SER COMPUTADA.
+- No momento da separação dos produtos e pesagem, o produto a peso, ficou em 980g ao invés de 1Kg conforme solicitado. Neste caso, a compra original deve ser CANCELADA e uma nova compra DEVE SER COMPUTADA.
 
 ### Na prática : 
-> A compra deverá ser lançada utilizando o serviço "Compra", porém com o campo "p_confirmada" igual a 0, ou seja, ficará pendente confirmação para o caso de o valor não coincidir.
+- A compra deverá ser lançada utilizando o serviço "Compra", porém com o campo "p_confirmada" igual a 0, ou seja, ficará pendente confirmação para o caso de o valor não coincidir.
 
 <p align="center">
   <img width="500" src="p_confirmada.png">
 </p>
 
-> Será necessário guardar o número p_nsu (Número sequencial único) da transação de origem e todas as demais informações do passo <b>#5 - Compra e Pagamento</b> do documento SOAP. Essas informações serão necessárias para os passos <b>#6 - Confirmação de compra e pagamento</b> e <b>#7 - Cancelamento de compra e pagamento</b>
+- Será necessário guardar o número p_nsu (Número sequencial único) da transação de origem e todas as demais informações do passo <b>#5 - Compra e Pagamento</b> do documento SOAP. Essas informações serão necessárias para os passos <b>#6 - Confirmação de compra e pagamento</b> e <b>#7 - Cancelamento de compra e pagamento</b>
 <p align="center">
   Compra e Pagamento
   <img src="compra&pagamento.png">
@@ -61,18 +60,19 @@ O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transaçõe
   <img src="confirmaCompra&Pagamento.png">
 </p>
 
-> Nesta segunda imagem mostra que é necessário enviar os 3 dados da operação operação anterior para confirmá-la. <br>
-  O mesmo acontece para o cancelamento.
+Nesta segunda imagem mostra que é necessário enviar os 3 dados da operação operação anterior para confirmá-la.
+O mesmo acontece para o cancelamento.
 
-> Para o cancelamento, siga o passo <b>#7</b> do documento SOAP.
+- Para o cancelamento, siga o passo <b>#7</b> do documento SOAP.
 
-> Para o cadastramento da nova compra, siga os passos <b>#5</b> e <b>#6</b> do documento SOAP.
+- Para o cadastramento da nova compra, siga os passos <b>#5</b> e <b>#6</b> do documento SOAP.
 
 https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
 
 
 - Link da documentação : [Documentacao Biz](documentacaoBiz.pdf)
-
+<br>
+<br>
 
 # Dúvidas
 
