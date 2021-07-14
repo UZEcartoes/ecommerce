@@ -31,8 +31,8 @@ O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transaçõe
 
 - Cliente seleciona os produtos que deseja.
 
-<table>
-  <tbody >
+<table align="center">
+  <tbody>
     <tr><th>Sabão em pó X - R$15,00</th></tr>
     <tr><th>Amaciante Y - R$15,00</th></tr>
     <tr><th>1kg de Inhame - R$ 8,00 Kg</th></tr>
@@ -40,6 +40,7 @@ O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transaçõe
     <tr><th>Total = R$38,00</th></tr>
   </tbody>
 </table>
+
 
 - No momento da separação dos produtos e pesagem, o produto a peso, ficou em 980g ao invés de 1Kg conforme solicitado. Neste caso, a compra original deve ser CANCELADA e uma nova compra DEVE SER COMPUTADA.
 
@@ -67,9 +68,9 @@ O mesmo acontece para o cancelamento.
 
 - Para o cadastramento da nova compra, siga os passos <b>#5</b> e <b>#6</b> do documento SOAP.
 
-https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
-
 # Vídeo explicativo
+
+https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
 
 - Link da documentação : [Documentacao Biz](documentacaoBiz.pdf)
 <br>
