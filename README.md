@@ -52,6 +52,7 @@ O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transaçõe
 </p>
 
 - Será necessário guardar o número p_nsu (Número sequencial único) da transação de origem e todas as demais informações do passo <b>#5 - Compra e Pagamento</b> do documento SOAP. Essas informações serão necessárias para os passos <b>#6 - Confirmação de compra e pagamento</b> e <b>#7 - Cancelamento de compra e pagamento</b>
+
 <p align="center">
   Compra e Pagamento
   <img src="compra&pagamento.png">
