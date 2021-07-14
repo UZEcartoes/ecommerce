@@ -47,7 +47,7 @@ O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transaçõe
 - A compra deverá ser lançada utilizando o serviço "Compra", porém com o campo "p_confirmada" igual a 0, ou seja, ficará pendente confirmação para o caso de o valor não coincidir.
 
 <p align="center">
-  <img width="500" src="p_confirmada.png">
+  <img src="p_confirmada.png">
 </p>
 
 - Será necessário guardar o número p_nsu (Número sequencial único) da transação de origem e todas as demais informações do passo <b>#5 - Compra e Pagamento</b> do documento SOAP. Essas informações serão necessárias para os passos <b>#6 - Confirmação de compra e pagamento</b> e <b>#7 - Cancelamento de compra e pagamento</b>
@@ -69,6 +69,7 @@ O mesmo acontece para o cancelamento.
 
 https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
 
+# Vídeo explicativo
 
 - Link da documentação : [Documentacao Biz](documentacaoBiz.pdf)
 <br>
