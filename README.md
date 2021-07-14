@@ -57,6 +57,7 @@ O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transaçõe
   Compra e Pagamento
   <img src="compra&pagamento.png">
 </p>
+
 <p align="center">
   Confirma Compra e Pagamento
   <img src="confirmaCompra&Pagamento.png">
