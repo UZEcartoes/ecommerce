@@ -19,15 +19,40 @@ Este método é apenas uma alternativa e requer menos esforço de implementaçã
 - Na hora de retirar o produto o cliente efetua o pagamento na máquina POS física ou no POS virtual.
 
 <p align="center">
-  <img width="500" src="screenshotMercado.png">
+  <img src="screenshotMercado.png">
 </p>
 
 Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, ela é debitada na máquina na retirada do produto.
 
-# - Via SOAP
+# - Via SOAP <a href="documentoBiz.pdf">(Documento)</a>
 
 O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transações que são feitas com os cartões da UZE.
 
+Exemplo de fluxo do processo : 
+
+- Cliente seleciona os produtos que deseja. Suponhamos que ele selecionou os seguintes produtos:
+
+<table>
+  <tbody>
+    <tr>
+      <th>Sabão em pó X - R$15,00</th>
+      <th align="center">Amaciante Y - R$15,00</th>
+      <th align="right">1kg de inhame - R$ 8,00 Kg</th>
+    </tr>
+  </tbody>
+</table>
+
+- O valor total da compra é R$38,00. No momento do checkout, o cliente não sabe quanto vai custar o item a peso, visto que pode não coincidir com o valor exato de 1Kg. Sendo assim, o serviço SOAP para informar a compra deve ser chamado o serviço "Compra", porém com o campo "p_confirmada" igual a 0, ou seja, ficará pendente.
+
+<p align="center">
+  <img width="500" src="p_confirmada.png">
+</p>
+
+- Será necessário guardar o número p_nsu (Número sequencial único) da transação de origem e todas as demais informações do passo <b>#5 - Compra e Pagamento</b> do documento SOAP. Essas informações serão necessárias para os passos <b>#6 - Confirmação de compra e pagamento</b> e <b>#7 - Cancelamento de compra e pagamento</b>.
+
+- No momento da separação dos produtos e pesagem, o produto a peso, ficou em 980g ao invés de 1Kg conforme solicitado. Neste caso, a compra original deve ser CANCELADA e uma nova compra DEVE SER COMPUTADA.
+- Para o cancelamento, siga o passo <b>#7 - Cancelamento de compra e pagamento</b> do documento SOAP.
+- Para o cadastramento da nova compra, siga os passos <b>#5</b> e <b>#6</b> do documento SOAP.
 <!--
 Dentro dos serviços disponíveis, o que utilizaremos no e-commerce são : 
 - Compra - Este serviço deverá ser utilizado para gerar transações financeiras de compra e pagamento.
@@ -43,7 +68,7 @@ A criação de credenciais, utilização da chave de acesso e criptografia serã
 https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
 
 
-- Link da documentação : [esp_interface_autorizacao_webservice_v1_5 nova.pdf](https://github.com/UZEcartoes/ecommerce/files/6736735/esp_interface_autorizacao_webservice_v1_5.nova.pdf)
+- Link da documentação : [Documentacao Biz](documentacaoBiz.pdf)
 
 
 # Dúvidas
