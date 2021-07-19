@@ -73,15 +73,11 @@ O mesmo acontece para o cancelamento.
 
 - Para o cadastramento da nova compra, siga os passos <b>#5</b> e <b>#6</b> do documento SOAP.
 
-# Vídeo explicativo
-
-https://user-images.githubusercontent.com/86687737/123870897-5f325800-d909-11eb-8249-56df5990814f.mp4
+# Dúvidas
 
 - Link da documentação : [Documentacao Biz](documentacaoBiz.pdf)
 <br>
 <br>
 
-# Dúvidas
-
 Para o caso de dúvidas entre em contato conosco através do link abaixo : 
-- < LINK DO PIPEFY > 
+- https://app.pipefy.com/public/form/fHSm6iab
