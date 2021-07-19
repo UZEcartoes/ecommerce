@@ -75,7 +75,7 @@ O mesmo acontece para o cancelamento.
 
 # Dúvidas
 
-- Link da documentação : [Documentacao Biz](docs/documentacaoBiz.pdf)
+- Link da documentação : [Documentacao Biz](docs/documentoBiz.pdf)
 <br>
 <br>
 
