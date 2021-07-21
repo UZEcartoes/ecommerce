@@ -22,7 +22,7 @@ Este método é apenas uma alternativa e requer menos esforço de implementaçã
 
 Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, ela é debitada na máquina na retirada do produto.
 
-<h2>Via SOAP<a href="docs/documentoBiz.pdf"> (Documento) </a></h2> 
+<h2>Via SOAP<a href="https://app.pipefy.com/public/form/fHSm6iab"> (Solicite o Documento) </a></h2> 
 
 O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transações que são feitas com os cartões da UZE.
 <br>
@@ -71,13 +71,13 @@ O mesmo acontece para o cancelamento.
 
 - Para o cancelamento, siga o passo <b>#7</b> do documento SOAP.
 
-- Para o cadastramento da nova compra, siga os passos <b>#5</b> e <b>#6</b> do documento SOAP.
+- Para o cadastramento da nova compra siga o passo <b>#5</b> do documento SOAP e preencha o campo "p_confirmada" com valor 1, conforme imagem abaixo.
 
-# Dúvidas
+<p align="center">
+  <img src="assets/p_confirmada.png">
+</p>
 
-- Link da documentação : [Documentacao Biz](docs/documentoBiz.pdf)
-<br>
-<br>
+# Dúvidas e Documentação
 
-Para o caso de dúvidas entre em contato conosco através do link abaixo : 
+Para o caso de dúvidas e solicitação da documentação entre em contato conosco através do link abaixo : 
 - https://app.pipefy.com/public/form/fHSm6iab
