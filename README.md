@@ -22,7 +22,7 @@ Este método é apenas uma alternativa e requer menos esforço de implementaçã
 
 Ao invés de ser debitada a compra no cartão na hora da compra via e-commerce, ela é debitada na máquina na retirada do produto.
 
-<h2>Via SOAP<a href="https://app.pipefy.com/public/form/fHSm6iab"> (Solicite o Documento) </a></h2> 
+<h2>Via SOAP<a href="https://app.pipefy.com/public/form/fHSm6iab" target="_blank"> (Solicite o Documento) </a></h2> 
 
 O SOAP é o protocolo utilizado pela BIZ para que sejam efetuadas as transações que são feitas com os cartões da UZE.
 <br>
